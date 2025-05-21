@@ -1,0 +1,12 @@
+title: CV-Typst-Template
+author: Sereina M. Graber
+version: 0.0.1
+quarto-required: ">=1.5.0"
+contributes:
+  formats:
+    typst:
+      keep-typ: true
+      template: template.typ
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ

@@ -1,0 +1,72 @@
+---
+title: "Cover Letter"
+author:
+  firstname: Albert
+  lastname: Einstein
+  position: "Research Physicist ・Professor"
+  address: "Rämistrasse 101, Zurich, Switzerland"
+  contacts:
+    - icon: fa envelope
+      text: albert.einstein@example.com
+      url: "mailto:albert.einstein@example.com"
+    - icon: fa star #assets/icon/bi-house-fill.svg
+      text: alberteinstein.github.io
+      url: https://github.com/
+    - icon: fa brands github
+      text: GitHub
+      url: https://github.com/
+    - icon: fa brands orcid
+      text: 0000-0000-0000-0000
+      url: https://orcid.org/
+    - icon: fa brands researchgate
+      text: ResearchGate
+      url: https://www.researchgate.net/
+    - icon: fa brands linkedin
+      text: LinkedIn
+      url: https://www.linkedin.com/
+date: today
+format: Letter-Typst-Template-typst
+---
+```{r}
+#| output: false
+#| echo: false
+
+
+library(tidyverse)
+
+```
+
+
+[**Job Application Researcher/ Professor**]{.underline}
+
+\
+\
+\
+Dear Hiring Manager,\
+
+
+\
+I hereby apply for the position **Researcher/ Professor** at the Institute of Theoretical Physics at the ETH in Zurich.
+
+
+# About Me
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+
+# Why ETH?
+
+Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+
+# Why Me?
+
+Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+\
+I would be very happy to personally discuss my qualifications and the position in more detail.
+
+\
+Sincerely,\
+**Albert Einstein**
+
