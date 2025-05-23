@@ -312,7 +312,7 @@ $endif$
           //#author.firstname
           //#author.lastname
           //#sym.dot.c
-          This letter is built based on Typst and Quarto, code available from https://github.com/serigra/Letter-Typst-Template
+          This letter is built based on Typst and Quarto, code available from my github repo https://github.com/serigra/Letter-Typst-Template
         ]
       
         //#counter(page).display()
