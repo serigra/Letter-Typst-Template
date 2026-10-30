@@ -1,4 +1,4 @@
-#import "@preview/fontawesome:0.1.1": *
+#import "@preview/fontawesome:0.5.0": *
 
 //------------------------------------------------------------------------------
 // Style
@@ -53,7 +53,7 @@ $endif$
     #if parts.len() == 2 {
       fa-icon(parts.at(1), fill: color-lightgreen)
     } else if parts.len() == 3 and parts.at(1) == "brands" {
-      fa-icon(parts.at(2), fa-set: "Brands", fill: color-lightgreen)
+      fa-icon(parts.at(2), fill: color-lightgreen)
     } else {
       assert(false, "Invalid fontawesome icon string")
     }
@@ -83,7 +83,7 @@ $endif$
   
     block[
       #set text(
-        size: 16pt,
+        size: 13pt,
         style: "normal",
         font: (font-header),
       )
@@ -103,7 +103,8 @@ $endif$
   
   set text(
     color-accent,
-    size: 10pt,
+    size: 13pt,
+    //style: "bold",
   )
     
   smallcaps[
